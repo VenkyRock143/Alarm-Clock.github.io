@@ -1,0 +1,235 @@
+:root{
+  --color1: rgb(0, 36, 70);
+  --color3: grey;
+  --color2: white;
+}
+.dark-mode{
+  --color1: white;
+  --color2: rgb(0, 36, 70);
+}
+body{
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--color2);
+}
+/* styling the container to settle in center of the body to look pretty */
+#Alarm-Container{
+    height: 70vh;
+    width: 50vb;
+     /* align-items: center;
+    text-align: center;  */
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 5% 5% 0% 0%;
+    background: var(--color1);
+    color: var(--color2);
+    box-shadow: 1px 1px 10px 1px var(--color1);
+    /* overflow: auto; */
+    border-bottom: 5px solid var(--color3);
+    
+}
+/* styling the top div which contains time and set alarms functionality */
+#top{
+  border-bottom: 1px solid var(--color3);
+  padding-bottom: 20px;
+  text-align: center; 
+  
+}
+/* style properties for time */
+#Time{
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 5px;
+}
+/* style properties for alarm input */
+.alarm-input {
+  width: 100px;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 14px;
+  overflow: auto;
+  background-image: url('');
+  
+}
+/* style properties for set alarms button */
+.set-btn{
+  height: 35px;
+  padding: 5px;
+  background-color: rgb(25, 100, 6);
+  color: white;
+  border-radius: 10px;
+  border: 2px solid var(--color2);
+  font-weight: 700;
+}
+.set-btn:hover{
+  box-shadow: 0px 0px 10px 1px var(--color2);
+}
+
+
+#alarmInput,.set-btn{
+cursor: pointer;
+}
+
+
+/* style properties for the alarams array */
+
+
+/* style properties for alarms title */
+.alarms-array-title{
+  width:100%;
+  border-bottom: 1px solid grey;
+  height:7%;
+  background-color: var(--color2);
+  color:var(--color1);
+  
+}
+#alarms-array-title{
+  padding: 10px 10px 10px 20px; 
+  margin:auto;
+  font-size: 25px;
+}
+/* making the alarms array to display the content one after another */
+#alarms-array{
+    font-size: 20px;
+    padding: 10px;
+    overflow: auto;
+    max-height: 300px;
+    
+}
+#alarms{
+   
+    padding: 10px;
+    overflow: auto;
+    
+}
+/* adding some styles to delete button */
+#delete{
+    background-color: rgb(116, 5, 5);
+    color: white;
+    border-radius: 10px;
+    padding: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    border: 2px solid var(--color2);
+    margin-left: 210px;   
+}
+#delete:hover{
+  box-shadow: 0px 0px 10px 1px var(--color2);
+}
+
+
+/* These are the style properties to switch between dark and light modes with the toggle button */
+
+.toggle-container {
+  padding: 50px;
+  align-items: center;
+  text-align: center;
+  max-height: 100px;
+}
+
+.toggle-input {
+  display: none;
+}
+
+.toggle-label {
+  display: inline-block;
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: gray;
+  position: relative;
+  cursor: pointer;
+}
+
+.toggle-label:before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: var(--color2);
+  transition: transform 0.2s ease;
+}
+/* These to classes will transform the button when the checkbox is checked */
+.toggle-input:checked + .toggle-label {
+  background-color: var(--color1);
+}
+
+.toggle-input:checked + .toggle-label:before {
+  transform: translateX(40px);
+  background-color: var(--color2);
+}
+/* These properties is used to style the names of modes */
+#mode-name {
+  position: relative;
+  font-weight: bold;
+  font-size: 26px;
+  color: var(--color1);
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+/* These media properties are used to make the app to make responsive in multiple devices */
+
+@media only screen and (max-width:768px){
+  #Alarm-Container {
+    width: 80%;
+  }
+  #alarms-array{
+    font-size: 15px;
+    padding: 10px;
+    overflow: auto;
+    max-height: 150px;
+}
+#delete {
+  left: auto;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+#alarms-array-title{
+  position: fixed; 
+  padding: 10px 10px 10px 20px; 
+  margin:auto;
+  font-size: 20px;
+}
+
+}
+
+@media only screen and (max-width: 480px) {
+  #Alarm-Container {
+    width: 90%;
+  }
+
+  #delete {
+    left: auto;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media only screen and (max-height: 900px) {
+  #Alarm-Container {
+    width: 90%;
+  }
+
+  #delete {
+    left: auto;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  #alarms-array{
+    font-size: 20px;
+    padding: 10px;
+    overflow: auto;
+    max-height: 240px;
+
+}
+.alarms-array-title{
+  padding: 0px 0px 10px 0px; 
+  margin:auto;
+  font-size: 25px;
+}
+}

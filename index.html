@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Alarm Clock</title>
+</head>
+<body>
+  <!-- conatainer which contains all alaram functionalities -->
+  <div id="Alarm-Container">
+    <!-- top of the container containing time and set alarms -->
+    <div id="top">
+       <div id="Time">
+            <h3>Alarm Clock</h3>
+            <p id="time"></p> 
+       </div>
+    
+       <div id="set_alaram">
+            <h3>Set Alarm Time</h3>
+            <input type="time" id="alarmInput" class="alarm-input">
+            <button class="set-btn" onclick="setAlarm()">Set Alarm</button>
+       </div>    
+    </div>
+    <!-- Alarms array title -->
+    <div class="alarms-array-title">
+        <h3 id="alarms-array-title">Alarms</h3>
+    </div>
+    <!-- div that carries all the alarms in the form of array -->
+    <div id="alarms-array">
+            <div class="alarms">
+             <p id="alarms"></p>
+            </div> 
+    </div>
+  </div>  
+    <!-- div that contains functionalities to switch between dark and light mode  -->
+  <div class="toggle-container">
+        <input type="checkbox" id="toggle" class="toggle-input">
+        <label for="toggle" class="toggle-label"></label>
+        <span id="mode-name">Light Mode</span>
+  </div>
+</body>
+<script src="scripts.js"></script>
+</html> 
