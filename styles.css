@@ -93,7 +93,7 @@ cursor: pointer;
     font-size: 20px;
     padding: 10px;
     overflow: auto;
-    max-height: auto;
+    max-height: 300px;
     
 }
 #alarms{
