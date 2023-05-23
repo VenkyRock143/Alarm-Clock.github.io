@@ -212,7 +212,7 @@ cursor: pointer;
 }
 @media only screen and (max-height: 900px) {
   #Alarm-Container {
-    width: 80%;
+    width: 90%;
   }
 
   #delete {
