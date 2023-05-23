@@ -15,7 +15,7 @@ body{
 /* styling the container to settle in center of the body to look pretty */
 #Alarm-Container{
     height: 70vh;
-    width: 40%;
+    width: 50vb;
      /* align-items: center;
     text-align: center;  */
     margin: auto;
