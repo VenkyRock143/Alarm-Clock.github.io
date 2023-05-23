@@ -15,7 +15,7 @@ body{
 /* styling the container to settle in center of the body to look pretty */
 #Alarm-Container{
     height: 70vh;
-    width: 50vb;
+    width: 40%;
      /* align-items: center;
     text-align: center;  */
     margin: auto;
@@ -111,7 +111,7 @@ cursor: pointer;
     cursor: pointer;
     font-weight: 600;
     border: 2px solid var(--color2);
-    margin-left: 210px;   
+    margin-left: 60%;   
 }
 #delete:hover{
   box-shadow: 0px 0px 10px 1px var(--color2);
@@ -212,7 +212,7 @@ cursor: pointer;
 }
 @media only screen and (max-height: 900px) {
   #Alarm-Container {
-    width: 90%;
+    width: 40%;
   }
 
   #delete {
