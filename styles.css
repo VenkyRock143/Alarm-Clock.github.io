@@ -15,7 +15,7 @@ body{
 /* styling the container to settle in center of the body to look pretty */
 #Alarm-Container{
     height: 70vh;
-    width: 50vb;
+    width: 40%;
      /* align-items: center;
     text-align: center;  */
     margin: auto;
@@ -93,7 +93,7 @@ cursor: pointer;
     font-size: 20px;
     padding: 10px;
     overflow: auto;
-    max-height: 300px;
+    max-height: 47%;
     
 }
 #alarms{
@@ -111,7 +111,7 @@ cursor: pointer;
     cursor: pointer;
     font-weight: 600;
     border: 2px solid var(--color2);
-    margin-left: 60%;   
+    margin-left: 65%;   
 }
 #delete:hover{
   box-shadow: 0px 0px 10px 1px var(--color2);
@@ -174,62 +174,67 @@ cursor: pointer;
 
 /* These media properties are used to make the app to make responsive in multiple devices */
 
-@media only screen and (max-width:768px){
-  #Alarm-Container {
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and  (min-width: 576px) { 
+  #Alarm-Container{
+    height: 70vh;
     width: 80%;
   }
   #alarms-array{
-    font-size: 15px;
-    padding: 10px;
-    overflow: auto;
-    max-height: 150px;
-}
-#delete {
-  left: auto;
-  margin-left: 50%;
-  transform: translateX(-50%);
-}
-
-#alarms-array-title{
-  position: fixed; 
-  padding: 10px 10px 10px 20px; 
-  margin:auto;
-  font-size: 20px;
-}
-
-}
-
-@media only screen and (max-width: 480px) {
-  #Alarm-Container {
-    width: 90%;
+    max-height: 35%;
+    
+  }
+  #delete{
+    margin-left: 55%;   
   }
 
-  #delete {
-    left: auto;
-    margin-left: 50%;
-    transform: translateX(-50%);
-  }
-}
-@media only screen and (max-height: 900px) {
-  #Alarm-Container {
-    width: 90%;
-  }
+ }
 
-  #delete {
-    left: auto;
-    margin-left: 50%;
-    transform: translateX(-50%);
+/* Medium devices (tablets, 768px and up) */
+@media only screen and  (min-width: 768px) { 
+
+  #Alarm-Container{
+    height: 70vh;
+    width: 60%;
   }
   #alarms-array{
-    font-size: 20px;
-    padding: 10px;
-    overflow: auto;
-    max-height: 150px;
+    max-height: 35%;
+    
+  }
+  #delete{
+    margin-left: 55%;   
+  }
 
-}
-.alarms-array-title{
-  padding: 0px 0px 10px 0px; 
-  margin:auto;
-  font-size: 25px;
-}
-}
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and  (min-width: 992px) { 
+  #Alarm-Container{
+    height: 70vh;
+    width:40%;
+  }
+  #alarms-array{
+    max-height: 35%;
+    
+  }
+  #delete{
+    margin-left: 55%;   
+  }
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and  (min-width: 1200px) { 
+  #Alarm-Container{
+    height: 70vh;
+    width: 35%;
+  }
+  #alarms-array{
+    max-height: 35%;
+    
+  }
+  #delete{
+    margin-left: 55%;   
+  }
+
+ }
