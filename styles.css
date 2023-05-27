@@ -223,14 +223,14 @@ cursor: pointer;
 
  }
 
-/* Extra large devices (large desktops, 1200px and up) */
-@media only screen and  (min-width: 1200px) { 
+/* Extra large devices (large desktops, 1920px and up) */
+@media only screen and  (min-width: 1920px) { 
   #Alarm-Container{
     height: 70vh;
     width: 35%;
   }
   #alarms-array{
-    max-height: 35%;
+    max-height: 45%;
     
   }
   #delete{
