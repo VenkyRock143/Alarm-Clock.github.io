@@ -93,7 +93,7 @@ cursor: pointer;
     font-size: 20px;
     padding: 10px;
     overflow: auto;
-    max-height: 47%;
+    max-height: 70%;
     
 }
 #alarms{
@@ -195,7 +195,7 @@ cursor: pointer;
 
   #Alarm-Container{
     height: 70vh;
-    width: 80%;
+    width: 60%;
   }
   #alarms-array{
     max-height: 35%;
@@ -211,7 +211,7 @@ cursor: pointer;
 @media only screen and  (min-width: 992px) { 
   #Alarm-Container{
     height: 70vh;
-    width:80%;
+    width:40%;
   }
   #alarms-array{
     max-height: 35%;
@@ -223,14 +223,14 @@ cursor: pointer;
 
  }
 
-/* Extra large devices (large desktops, 1920px and up) */
-@media only screen and  (min-width: 1920px) { 
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and  (min-width: 1200px) { 
   #Alarm-Container{
     height: 70vh;
     width: 35%;
   }
   #alarms-array{
-    max-height: 45%;
+    max-height: 47%;
     
   }
   #delete{
