@@ -172,7 +172,7 @@ cursor: pointer;
 
 /* These media properties are used to make the app to make responsive in multiple devices */
 
-@media only screen and (max-width:720px){
+@media only screen and (max-width:786px){
   #Alarm-Container {
     width: 80%;
   }
