@@ -23,3 +23,5 @@ Some details about Alarm-clock in HTML
 => Styles.css is used to handle sytling properties.
 
 => scripts.js is used to handle all functionalities carried by alarm
+
+Please! Zoom Out Window if you face any problems while creating Alarm-array. Like positioning of delete button
