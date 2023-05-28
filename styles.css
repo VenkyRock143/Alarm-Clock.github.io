@@ -182,7 +182,7 @@ cursor: pointer;
     font-size: 15px;
     padding: 10px;
     overflow: auto;
-    max-height: 150px;
+    max-height: 47%;
 }
 #delete {
   left: auto;
@@ -206,7 +206,7 @@ cursor: pointer;
 
   #delete {
     left: auto;
-    margin-left: 50%;
+    margin-left: 55%;
     transform: translateX(-50%);
   }
 }
@@ -217,12 +217,12 @@ cursor: pointer;
 
   #delete {
     left: auto;
-    margin-left: 50%;
+    margin-left: 55%;
     transform: translateX(-50%);
   }
   #alarms-array{
    
-    max-height: 35%;
+    max-height: 33%;
 
 }
 .alarms-array-title{
