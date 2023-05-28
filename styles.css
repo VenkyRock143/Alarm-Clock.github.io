@@ -93,7 +93,7 @@ cursor: pointer;
     font-size: 20px;
     padding: 10px;
     overflow: auto;
-    max-height: 70%;
+    /* max-height: 70%; */
     
 }
 #alarms{
@@ -175,7 +175,7 @@ cursor: pointer;
 /* These media properties are used to make the app to make responsive in multiple devices */
 
 /* Small devices (landscape phones, 576px and up) */
-@media only screen and  (min-width: 576px) { 
+/* @media only screen and  (min-width: 576px) { 
   #Alarm-Container{
     height: 70vh;
     width: 80%;
@@ -237,4 +237,4 @@ cursor: pointer;
     margin-left: 55%;   
   }
 
- }
+ } */
