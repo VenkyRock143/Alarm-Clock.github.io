@@ -93,7 +93,8 @@ cursor: pointer;
     font-size: 20px;
     padding: 10px;
     overflow: auto;
-    max-height: 47%;
+    max-height: auto;
+    max-height: 300px;
     
 }
 #alarms{
@@ -111,7 +112,7 @@ cursor: pointer;
     cursor: pointer;
     font-weight: 600;
     border: 2px solid var(--color2);
-    margin-left: 55%;   
+    margin-left: 60%;   
 }
 #delete:hover{
   box-shadow: 0px 0px 10px 1px var(--color2);
@@ -174,7 +175,7 @@ cursor: pointer;
 
 /* These media properties are used to make the app to make responsive in multiple devices */
 
-@media only screen and (min-width:768px){
+@media only screen and (max-width:768px){
   #Alarm-Container {
     width: 80%;
   }
@@ -182,7 +183,7 @@ cursor: pointer;
     font-size: 15px;
     padding: 10px;
     overflow: auto;
-    max-height: 40%;
+    max-height: 150px;
 }
 #delete {
   left: auto;
@@ -199,30 +200,32 @@ cursor: pointer;
 
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (max-width: 480px) {
   #Alarm-Container {
-    width: 80%;
+    width: 90%;
   }
 
   #delete {
     left: auto;
-    margin-left: 55%;
+    margin-left: 50%;
     transform: translateX(-50%);
   }
 }
-@media only screen and (min-width: 900px) {
+@media only screen and (max-height: 900px) {
   #Alarm-Container {
-    width: 50%;
+    width: 90%;
   }
 
   #delete {
     left: auto;
-    margin-left: 55%;
+    margin-left: 50%;
     transform: translateX(-50%);
   }
   #alarms-array{
-   
-    max-height: 30%;
+    font-size: 20px;
+    padding: 10px;
+    overflow: auto;
+    max-height: 150px;
 
 }
 .alarms-array-title{
