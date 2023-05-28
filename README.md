@@ -4,6 +4,8 @@ Created an alarm clock.  BY Using ONLY vanilla javascript, no libraries or frame
 
 Here! Created alarm clock with the help of only HTML,CSS and Javascript.
 
+Some details about Alarm-clock in HTML
+
 => I have created a div alarm-container dividing it into 4 parts.
 
 => 1. First div contains a proper running time with input box used take time as input along 
