@@ -172,39 +172,40 @@ cursor: pointer;
 
 /* These media properties are used to make the app to make responsive in multiple devices */
 
-@media only screen and (max-width:786px){
+@media only screen and (max-width: 768px) {
   #Alarm-Container {
-    width: 80%;
+      width: 80%;
   }
-  #alarms-array{
-    font-size: 15px;
-    padding: 10px;
-    overflow: auto;
-    max-height: 170px;
-}
-#delete {
-  left: auto;
-  margin-left: 50%;
-  transform: translateX(-50%);
-}
-
-#alarms-array-title{
-  position: fixed; 
-  padding: 10px 10px 10px 20px; 
-  margin:auto;
-  font-size: 20px;
-}
-
+  
+  #alarms-array {
+      font-size: 15px;
+      padding: 10px;
+      overflow: auto;
+      max-height: 170px;
+  }
+  
+  #delete {
+      left: auto;
+      margin-left: 50%;
+      transform: translateX(-50%);
+  }
+  
+  #alarms-array-title {
+      position: fixed;
+      padding: 10px 10px 10px 20px;
+      margin: auto;
+      font-size: 20px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
   #Alarm-Container {
-    width: 90%;
+      width: 90%;
   }
 
   #delete {
-    left: auto;
-    margin-left: 50%;
-    transform: translateX(-50%);
+      left: auto;
+      margin-left: 50%;
+      transform: translateX(-50%);
   }
 }
