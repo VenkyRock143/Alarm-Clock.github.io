@@ -201,7 +201,7 @@ cursor: pointer;
 
 @media only screen and (max-width: 480px) {
   #Alarm-Container {
-    width: 90%;
+    width: 80%;
   }
 
   #delete {
@@ -212,7 +212,7 @@ cursor: pointer;
 }
 @media only screen and (max-height: 900px) {
   #Alarm-Container {
-    width: 90%;
+    width: 80%;
   }
 
   #delete {
@@ -221,10 +221,8 @@ cursor: pointer;
     transform: translateX(-50%);
   }
   #alarms-array{
-    font-size: 20px;
-    padding: 10px;
-    overflow: auto;
-    max-height: 47%;
+   
+    max-height: 35%;
 
 }
 .alarms-array-title{
