@@ -174,7 +174,7 @@ cursor: pointer;
 
 /* These media properties are used to make the app to make responsive in multiple devices */
 
-@media only screen and (max-width:768px){
+@media only screen and (min-width:768px){
   #Alarm-Container {
     width: 80%;
   }
@@ -182,7 +182,7 @@ cursor: pointer;
     font-size: 15px;
     padding: 10px;
     overflow: auto;
-    max-height: 40%;
+    max-height: 35%;
 }
 #delete {
   left: auto;
@@ -199,7 +199,7 @@ cursor: pointer;
 
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 480px) {
   #Alarm-Container {
     width: 80%;
   }
@@ -210,9 +210,10 @@ cursor: pointer;
     transform: translateX(-50%);
   }
 }
-@media only screen and (max-height: 900px) {
+@media only screen and (min-width: 900px) {
   #Alarm-Container {
-    width: 80%;
+    width: 50%;
+    height: 70%;
   }
 
   #delete {
