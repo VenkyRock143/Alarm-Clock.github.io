@@ -177,7 +177,7 @@ cursor: pointer;
 @media only screen and  (min-width: 576px) { 
   #Alarm-Container{
     height: 70vh;
-    width: 90%;
+    width: 80%;
   }
   #alarms-array{
     max-height: 35%;
@@ -193,11 +193,8 @@ cursor: pointer;
 @media only screen and  (min-width: 768px) { 
 
   #Alarm-Container{
-<<<<<<< HEAD
     height: 70vh;
-=======
->>>>>>> 864114e6c7b4d74ae375098b08a4d98f22ed57f8
-    width: 90%;
+    width:80%;
   }
   #alarms-array{
     max-height: 35%;
@@ -229,7 +226,7 @@ cursor: pointer;
 @media only screen and  (min-width: 1200px) { 
   #Alarm-Container{
     height: 70vh;
-    width: 35%;
+    width: 40%;
   }
   #alarms-array{
     max-height: 47%;
