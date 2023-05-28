@@ -14,6 +14,8 @@ body{
 }
 /* styling the container to settle in center of the body to look pretty */
 #Alarm-Container {
+  position: relative;
+  overflow: auto;
   height: 70vh;
   width: 40%;
   margin: auto;
@@ -77,7 +79,7 @@ cursor: pointer;
 .alarms-array-title{
   width:100%;
   border-bottom: 1px solid grey;
-  height:7%;
+  height:10%;
   background-color: var(--color2);
   color:var(--color1);
   
@@ -102,9 +104,7 @@ cursor: pointer;
 }
 /* adding some styles to delete button */
 #delete {
-  position: absolute;
-  bottom: 10px;
-  right: 10px; 
+  margin-left: 65%;
   background-color: rgb(116, 5, 5);
   color: white;
   border-radius: 10px;
@@ -113,6 +113,17 @@ cursor: pointer;
   font-weight: 600;
   border: 2px solid var(--color2);
 }
+
+/* #delete {
+  background-color: rgb(116, 5, 5);
+  color: white;
+  border-radius: 10px;
+  padding: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  border: 2px solid var(--color2);
+  margin-left: 60%;
+} */
 
 #delete:hover{
   box-shadow: 0px 0px 10px 1px var(--color2);
@@ -188,8 +199,7 @@ cursor: pointer;
   }
   
   #delete {
-      left: auto;
-      margin-left: 50%;
+      margin-left: 60%;
       transform: translateX(-50%);
   }
   
@@ -212,3 +222,8 @@ cursor: pointer;
       transform: translateX(-50%);
   }
 }
+
+
+
+
+
