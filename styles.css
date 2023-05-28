@@ -183,7 +183,7 @@ cursor: pointer;
     font-size: 15px;
     padding: 10px;
     overflow: auto;
-    max-height: 150px;
+    max-height: 170px;
 }
 #delete {
   left: auto;
@@ -213,19 +213,19 @@ cursor: pointer;
 }
 @media only screen and (max-height: 900px) {
   #Alarm-Container {
-    width: 90%;
+    width: 80%;
   }
 
   #delete {
     left: auto;
-    margin-left: 50%;
+    margin-left: 80%;
     transform: translateX(-50%);
   }
   #alarms-array{
     font-size: 20px;
     padding: 10px;
     overflow: auto;
-    max-height: 150px;
+    max-height: 120px;
 
 }
 .alarms-array-title{
