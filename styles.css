@@ -182,7 +182,7 @@ cursor: pointer;
     font-size: 15px;
     padding: 10px;
     overflow: auto;
-    max-height: 47%;
+    max-height: 40%;
 }
 #delete {
   left: auto;
@@ -222,7 +222,7 @@ cursor: pointer;
   }
   #alarms-array{
    
-    max-height: 33%;
+    max-height: 30%;
 
 }
 .alarms-array-title{
