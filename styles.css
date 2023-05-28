@@ -102,16 +102,16 @@ cursor: pointer;
 }
 /* adding some styles to delete button */
 #delete {
-    position: absolute;
-    top: 10px;
-    right: 10px; 
-    background-color: rgb(116, 5, 5);
-    color: white;
-    border-radius: 10px;
-    padding: 8px;
-    cursor: pointer;
-    font-weight: 600;
-    border: 2px solid var(--color2);
+  position: absolute;
+  bottom: 10px;
+  right: 10px; 
+  background-color: rgb(116, 5, 5);
+  color: white;
+  border-radius: 10px;
+  padding: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  border: 2px solid var(--color2);
 }
 
 #delete:hover{
