@@ -1,6 +1,6 @@
 # Alarm-Clock.github.io
 
-host link = https://merry-peony-86b9cb.netlify.app
+host link = https://venky-alarm-clock.netlify.app/
 
 Created an alarm clock.  BY Using ONLY vanilla javascript, no libraries or frameworks used for Javascript.
 
