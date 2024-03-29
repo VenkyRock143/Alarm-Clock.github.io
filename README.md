@@ -22,7 +22,7 @@ Some details about Alarm-clock in HTML
       with modes Dark and Light.
 
 
-=> Styles.css is used to handle sytling properties.
+=> Styles.css is used to handle styling properties.
 
 => scripts.js is used to handle all functionalities carried by alarm
 
