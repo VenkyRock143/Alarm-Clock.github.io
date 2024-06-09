@@ -1,29 +1,16 @@
 # Alarm-Clock.github.io
 
-host link = https://venky-alarm-clock.netlify.app/
+This repository hosts a web-based alarm clock application developed using only HTML, CSS, and JavaScript. 
 
-Created an alarm clock.  BY Using ONLY vanilla javascript, no libraries or frameworks used for Javascript.
+## Key Features
+- Set multiple alarms.
+- View and manage alarms.
+- Dark and light mode toggle.
 
-Here! Created alarm clock with the help of only HTML,CSS and Javascript.
+## Live Demo
+Access the live application [here](https://venky-alarm-clock.netlify.app/).
 
-Some details about Alarm-clock in HTML
-
-=> I have created a div alarm-container dividing it into 4 parts.
-
-=> 1. First div contains a proper running time with input box used take time as input along 
-      with a set alarm() button to take the input a time and sends it to a array of alarms
-      with the help of javascript.
-
-=> 2. Second div contains the title Alarms which holds the alarm array.
-
-=> 3. In third div we store the alarms which are set by user.
-
-=> 4. In these div we have the functionalities used to change the enviroment of browser
-      with modes Dark and Light.
-
-
-=> Styles.css is used to handle styling properties.
-
-=> scripts.js is used to handle all functionalities carried by alarm
-
-Please! Zoom Out Window if you face any problems while creating Alarm-array. Like positioning of delete button
+## File Structure
+- `index.html`: Main HTML file.
+- `styles.css`: Styling for the application.
+- `scripts.js`: JavaScript for functionality.
